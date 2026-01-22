@@ -19,11 +19,11 @@ Location: Governate, City, and Neighborhood.Specs: Area ($m^2$), Number of Rooms
 <h2>🚀 *Key Features*</h2> <br>
 
 Geospatial Visualization: Maps showing price distribution across Egyptian governates.<br>
-<img width="624" height="594" alt="image" src="https://github.com/user-attachments/assets/fb936f13-6f6e-4b1e-a108-98189fd78c4a" />
+<img width="300" height="594" alt="image" src="https://github.com/user-attachments/assets/fb936f13-6f6e-4b1e-a108-98189fd78c4a" />
 
 
 Arabic Support: Custom integration with arabic_reshaper to ensure city names render correctly in plots.<br>
 
 Interactive Predictor: A built-in dashboard in the modeling notebook that allows users to input house specs and get an instant price estimate.<br>
-<img width="716" height="421" alt="image" src="https://github.com/user-attachments/assets/a5112db9-016d-4bc2-8c7c-b0a133d86bea" />
+<img width="300" height="421" alt="image" src="https://github.com/user-attachments/assets/a5112db9-016d-4bc2-8c7c-b0a133d86bea" />
 
