@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# 1. Load the model
+# Load the model
 model = joblib.load('house_model.pkl')
 
 st.title("🇪🇬 Egyptian Housing Price Predictor")
 
-# 2. Define the inputs FIRST (this creates the variables rooms, baths, etc.)
+# Define the inputs
 rooms = st.number_input("Number of Rooms", min_value=1, max_value=10, value=3)
 baths = st.number_input("Number of Bathrooms", min_value=1, max_value=5, value=2)
 area = st.number_input("Area (m²)", min_value=30, max_value=1000, value=120)
@@ -25,14 +25,13 @@ governate = st.selectbox("Governate", ["العين السخنة","الساحل �
     "القليوبية",
     "المنوفية"]) 
 
-# 3. Prediction Button (Uses the variables defined above)
+# Prediction Button
 if st.button("Predict Price"):
-    # Create the dataframe using the variables defined above
     input_df = pd.DataFrame([{
         'Rooms': rooms,
         'Baths': baths,
         'Area': area,
-        'Lat': 30.0, # You can add sliders for these too!
+        'Lat': 30.0, 
         'Lon': 31.0,
         'Floor': floor,
         'Finishing': finishing,
