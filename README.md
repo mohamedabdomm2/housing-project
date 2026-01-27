@@ -27,3 +27,5 @@ Arabic Support: Custom integration with arabic_reshaper to ensure city names ren
 Interactive Predictor: A built-in dashboard in the modeling notebook that allows users to input house specs and get an instant price estimate.<br>
 <img width="300" height="421" alt="image" src="https://github.com/user-attachments/assets/a5112db9-016d-4bc2-8c7c-b0a133d86bea" />
 
+## Live Demo
+Try the app here: [Housing Price Predictor](https://housing-project-um9mec2vgxdn6jmunnxt9p.streamlit.app/)
