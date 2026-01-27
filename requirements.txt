@@ -10,4 +10,4 @@ streamlit
 nbformat
 joblib
 altair==4.2.2
-imghdr-py==0.4.0
+
